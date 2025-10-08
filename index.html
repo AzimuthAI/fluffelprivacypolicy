@@ -3,176 +3,140 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fluffle: Focus With Dragons - Privacy Policy</title>
+  <title>Fluffle: Focus With Dragons - Coming Soon</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+    * {
       margin: 0;
       padding: 0;
-      background: #fafafa;
-      color: #333;
+      box-sizing: border-box;
     }
-    header {
-      background: #6c63ff;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('ArtAssets/UI_Fluffle_LoadingBg_1_1.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
-    main {
-      max-width: 900px;
-      margin: auto;
+    
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 2rem;
-      background: white;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    h1, h2, h3 {
-      color: #222;
+    
+    .main-panel {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 3rem 2rem;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      max-width: 600px;
+      width: 100%;
     }
-    section {
+    
+    h1 {
+      font-size: 3.5rem;
+      color: #6c63ff;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .subtitle {
+      font-size: 1.2rem;
+      color: #666;
       margin-bottom: 2rem;
     }
+    
+    .app-stores {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    
+    .app-store-link {
+      display: inline-block;
+      transition: transform 0.3s ease;
+    }
+    
+    .app-store-link:hover {
+      transform: scale(1.05);
+    }
+    
+    .app-store-link img {
+      height: 60px;
+      width: auto;
+    }
+    
     footer {
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
       text-align: center;
       padding: 1rem;
-      font-size: 0.9em;
-      color: #555;
+      backdrop-filter: blur(10px);
+    }
+    
+    footer a {
+      color: #6c63ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    footer a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      
+      .main-panel {
+        padding: 2rem 1rem;
+        margin: 1rem;
+      }
+      
+      .app-stores {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .app-store-link img {
+        height: 50px;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Privacy Policy</h1>
-    <p>Fluffle: Focus With Dragons</p>
-  </header>
-  <main>
-    <section>
-      <h2>Effective Date</h2>
-      <p>[Insert Date]</p>
-    </section>
-
-    <section>
-      <h2>1. Introduction</h2>
-      <p>
-        [Company Name] (“we,” “our,” or “us”) values your privacy. 
-        This Privacy Policy explains how we collect, use, and protect your information 
-        when you use <strong>Fluffle: Focus With Dragons</strong> (the "App").  
-      </p>
-      <p>
-        This Privacy Policy complies with major data protection laws including 
-        the <strong>GDPR</strong> (EU/UK), <strong>CCPA</strong> (California), and other 
-        global regulations.
-      </p>
-    </section>
-
-    <section>
-      <h2>2. Information We Collect</h2>
-      <ul>
-        <li><strong>Personal Information You Provide:</strong> e.g., email if you contact us.</li>
-        <li><strong>Automatically Collected Information:</strong> device details, crash logs, usage analytics.</li>
-        <li><strong>No Sensitive Data:</strong> We do not collect financial, biometric, or precise location data.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>3. How We Use Your Information</h2>
-      <ul>
-        <li>Provide and improve the App’s functionality.</li>
-        <li>Respond to customer inquiries and support requests.</li>
-        <li>Monitor performance and crash reports.</li>
-        <li>Comply with legal obligations.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>4. Legal Bases for Processing (GDPR)</h2>
-      <p>
-        If you are in the EEA or UK, we process your data based on:
-      </p>
-      <ul>
-        <li><strong>Consent</strong> (e.g., when you contact us).</li>
-        <li><strong>Legitimate Interests</strong> (e.g., maintaining app performance).</li>
-        <li><strong>Legal Obligations</strong> (e.g., compliance with law).</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>5. Sharing of Information</h2>
-      <p>
-        We do not sell or rent your data. Information may be shared with:
-      </p>
-      <ul>
-        <li>Service providers (analytics, crash reporting).</li>
-        <li>Authorities if required by law.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>6. Data Retention</h2>
-      <p>
-        We retain data only as long as necessary to fulfill the purposes outlined, unless a longer retention is required by law.
-      </p>
-    </section>
-
-    <section>
-      <h2>7. Your Rights</h2>
-      <p>You may have rights to:</p>
-      <ul>
-        <li>Access and portability</li>
-        <li>Correction of inaccuracies</li>
-        <li>Deletion (“Right to be Forgotten”)</li>
-        <li>Restriction of processing</li>
-        <li>Objection to processing</li>
-        <li>Withdraw consent</li>
-      </ul>
-      <p>To exercise these rights, contact us at <strong>Dev@azmth.ai</strong>.</p>
-    </section>
-
-    <section>
-      <h2>8. Children’s Privacy</h2>
-      <p>
-        The App is not directed at children under 13 (or the minimum age in your country). 
-        We do not knowingly collect data from children.
-      </p>
-    </section>
-
-    <section>
-      <h2>9. International Data Transfers</h2>
-      <p>
-        Your data may be processed outside your country of residence. 
-        Where required, safeguards such as Standard Contractual Clauses are applied.
-      </p>
-    </section>
-
-    <section>
-      <h2>10. Security</h2>
-      <p>
-        We use reasonable technical and organizational measures to protect your information, 
-        but no system is completely secure.
-      </p>
-    </section>
-
-    <section>
-      <h2>11. Changes to this Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. Updates will be posted here with a new “Effective Date.”
-      </p>
-    </section>
-
-    <section>
-      <h2>12. Contact Us</h2>
-      <p>
-        If you have questions about this Privacy Policy, please contact us:
-      </p>
-      <p>
-        <strong>[Company Name]</strong><br />
-        [Company Address]<br />
-        Email: <a href="mailto:Dev@azmth.ai">Dev@azmth.ai</a>
-      </p>
-    </section>
-  </main>
+  <div class="content">
+    <div class="main-panel">
+      <h1>Coming Soon</h1>
+      <p class="subtitle">Fluffle: Focus With Dragons</p>
+      
+      <div class="app-stores">
+        <a href="#" class="app-store-link">
+          <img src="ArtAssets/AppStore.png" alt="Download on the App Store" />
+        </a>
+        <a href="#" class="app-store-link">
+          <img src="ArtAssets/PlayStore.png" alt="Get it on Google Play" />
+        </a>
+      </div>
+    </div>
+  </div>
+  
   <footer>
-    &copy; [Insert Year] [Company Name]. All rights reserved.
+    <a href="privacy-policy.html">Privacy Policy</a>
   </footer>
 </body>
 </html>
