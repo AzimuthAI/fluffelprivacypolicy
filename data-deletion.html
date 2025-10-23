@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluffle: Focus With Dragons - Data Deletion Request</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-image: url('ArtAssets/UI_Fluffle_LoadingBg_1_1.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+      color: #333;
+    }
+    
+    .header-panel {
+      background: rgba(108, 99, 255, 0.95);
+      backdrop-filter: blur(10px);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .main-panel {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    h1, h2, h3 {
+      color: #222;
+    }
+    
+    section {
+      margin-bottom: 2rem;
+    }
+    
+    .footer-panel {
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9em;
+    }
+    
+    .footer-panel a {
+      color: #6c63ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .footer-panel a:hover {
+      text-decoration: underline;
+    }
+    
+    .highlight-box {
+      background: rgba(108, 99, 255, 0.1);
+      border: 2px solid rgba(108, 99, 255, 0.3);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    
+    .email-link {
+      background: rgba(108, 99, 255, 0.1);
+      border: 1px solid rgba(108, 99, 255, 0.3);
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      display: inline-block;
+      margin: 0.5rem 0;
+      text-decoration: none;
+      color: #6c63ff;
+      font-weight: bold;
+    }
+    
+    .email-link:hover {
+      background: rgba(108, 99, 255, 0.2);
+    }
+    
+    .step-list {
+      counter-reset: step-counter;
+    }
+    
+    .step-list li {
+      counter-increment: step-counter;
+      margin-bottom: 1rem;
+      padding-left: 2rem;
+      position: relative;
+    }
+    
+    .step-list li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: #6c63ff;
+      color: white;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    
+    @media (max-width: 768px) {
+      .main-panel {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+      
+      .header-panel {
+        padding: 1.5rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header-panel">
+    <h1>Data Deletion Request</h1>
+    <p>Fluffle: Focus With Dragons</p>
+  </div>
+  
+  <div class="main-panel">
+    <section>
+      <h2>Request Account and Data Deletion</h2>
+      <p>
+        If you would like to delete your account and associated data from <strong>Fluffle: Focus With Dragons</strong>, 
+        please follow the steps below to submit a deletion request.
+      </p>
+    </section>
+
+    <div class="highlight-box">
+      <h3>How to Request Data Deletion</h3>
+      <ol class="step-list">
+        <li>
+          <strong>Gather Required Information:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Your email address associated with the account</li>
+            <li>Your profile name from the app</li>
+            <li>Your Privy ID (found in the app's profile tab - this is copyable)</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Send Deletion Request:</strong>
+          <p style="margin-top: 0.5rem;">
+            Email us at <a href="mailto:dev@azmth.ai?subject=Data%20Deletion%20Request" class="email-link">dev@azmth.ai</a> 
+            with the subject line "Data Deletion Request" and include all the information listed above.
+          </p>
+        </li>
+        <li>
+          <strong>Confirmation:</strong>
+          We will process your request within 30 days and send you a confirmation email once your data has been deleted.
+        </li>
+      </ol>
+    </div>
+
+    <section>
+      <h2>What Data Will Be Deleted</h2>
+      <p>When you request data deletion, we will remove:</p>
+      <ul>
+        <li>Your account information and profile data</li>
+        <li>App usage analytics and crash logs associated with your account</li>
+        <li>Any personal information you may have provided through support requests</li>
+        <li>All other data associated with your account</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Data Retention</h2>
+      <p>
+        We may retain certain information for legal compliance purposes, such as:
+      </p>
+      <ul>
+        <li>Records required by law or regulation</li>
+        <li>Information needed for legitimate business purposes (e.g., fraud prevention)</li>
+        <li>Anonymized data that cannot be linked back to you</li>
+      </ul>
+      <p>
+        Any retained data will be kept for the minimum period required by applicable laws.
+      </p>
+    </section>
+
+    <section>
+      <h2>Alternative Contact Methods</h2>
+      <p>
+        If you have any questions about the data deletion process or need assistance, 
+        you can also contact us at:
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:dev@azmth.ai" class="email-link">dev@azmth.ai</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Processing Time</h2>
+      <p>
+        We will process your data deletion request within 30 days of receiving all required information. 
+        You will receive a confirmation email once the deletion is complete.
+      </p>
+    </section>
+  </div>
+  
+  <div class="footer-panel">
+    <a href="index.html">← Back to Home</a> | <a href="privacy-policy.html">Privacy Policy</a> | &copy; 2025 Fluffle, Ltd. All rights reserved.
+  </div>
+</body>
+</html>
